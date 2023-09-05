@@ -2,9 +2,10 @@
 
 
 # YOLOv5 requirements
-# Usage: pip install -r requirements.txt
+ Usage: pip install -r requirements.txt
 
-# Base ------------------------------------------------------------------------
+# Base 
+---
 gitpython>=3.1.30
 matplotlib>=3.3
 numpy>=1.18.5
@@ -21,16 +22,19 @@ tqdm>=4.64.0
 ultralytics>=8.0.111
 # protobuf<=3.20.1  # https://github.com/ultralytics/yolov5/issues/8012
 
-# Logging ---------------------------------------------------------------------
+# Logging
+---
 - tensorboard>=2.4.1
 - clearml>=1.2.0
 - comet
 
-# Plotting --------------------------------------------------------------------
+# Plotting 
+---
 pandas>=1.1.4
 seaborn>=0.11.0
 
-# Export ----------------------------------------------------------------------
+# Export 
+---
 - coremltools>=6.0  # CoreML export
 - onnx>=1.10.0  # ONNX export
 - onnx-simplifier>=0.4.1  # ONNX simplifier
@@ -41,11 +45,13 @@ seaborn>=0.11.0
 - tensorflowjs>=3.9.0  # TF.js export
 - openvino-dev  # OpenVINO export
 
-# Deploy ----------------------------------------------------------------------
+# Deploy
+---
 setuptools>=65.5.1 # Snyk vulnerability fix
 = tritonclient[all]~=2.24.0
 
-# Extras ----------------------------------------------------------------------
+# Extras
+---
 - ipython   interactive notebook
 - mss  # screenshots
 - albumentations>=1.0.3

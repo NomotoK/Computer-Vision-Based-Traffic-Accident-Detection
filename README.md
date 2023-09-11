@@ -4,7 +4,7 @@
 # Overview
 Traffic accidents lead cause of death and injury in our society. The main way of detecting traffic accidents relies on the reporting of people involved or witnesses. Although city monitoring systems have also been used for detection such anomalies, it is difficult to cover every road. In addition, due to the limitations of computing power and algorithms, it usually cannot provide the detecting result in real time. Therefore, this project aims to develop a system that uses computer vision (CV) methods to improve the traffic accidents detection and identification. The system will be capable of analysing videos from different views (monitoring system, mobile phone and driving recorder) so that it can enhance the coverage of monitoring cameras. In addition, this project will optimise the existing CV network structures and utilise edge computing technology to to reduce computational requirements and achieve real-time detection output.
 
-## objective
+## Objective
 - Develop a CV-based system that can determine whether a road accident has occurred by collecting video data from surveillance cameras or dash cam cameras
 - The system has an accuracy of over 70% in determining whether a car accident has occurred
 - Integrate the system into a desktop or mobile application
